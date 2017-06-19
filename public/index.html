@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    </head>
+    <body ng-app="blog">
+        <h1>Last guest book messages</h1>
+        <div ng-controller="GuestBookController as guestbook">
+            <section ng-repeat="message in guestbook.messages">
+                <div style="margin-bottom: 2em">
+                    <div>{{message.message}}</div>
+                    <div>{{message.date | date}}</div>
+                    <div>Author: {{message.name}}</div>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+{"name":"john","date" : {$date: 1353441763974},"message":"You are great"}
+{"name":"peter","date": {$date: 1353441763666},"message":"You are not so great"}
+{"name":"float","date" : {$date:1353441453233},"message":"Awesome"}
